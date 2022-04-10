@@ -16,9 +16,9 @@ namespace Api.Configuration
 {
     public static class ApiConfiguration
     {
-        private const string NOME_API = "Scaffold API";
+        private const string NOME_API = "Authentication API";
         private const string VERSAO_API = "v1";
-        private const string TABELA_LOGS = "Logs_Scaffold";
+        private const string TABELA_LOGS = "Logs_Auth";
 
         public static void AdicionarDependencyInjection(this IServiceCollection services)
         {
